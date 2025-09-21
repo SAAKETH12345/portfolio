@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Project } from '../types';
 
@@ -21,18 +20,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
           {project.tags.map(tag => (
             <span key={tag} className="bg-dark-gray text-light-gray text-xs font-semibold px-3 py-1 rounded-full">{tag}</span>
           ))}
-        </div>
-        <div className="mt-auto flex items-center space-x-4">
-          {project.liveUrl && (
-            <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold flex items-center gap-2">
-              <i className="fas fa-external-link-alt"></i> Live Demo
-            </a>
-          )}
-          {project.sourceUrl && (
-            <a href={project.sourceUrl} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold flex items-center gap-2">
-              <i className="fab fa-github"></i> Source Code
-            </a>
-          )}
         </div>
       </div>
     </div>
