@@ -20,6 +20,14 @@ const About: React.FC = () => {
           <p>
             With 1 year of experience in the field, I am always looking for new and innovative ways to bring my clients' visions to life. I specialize in building responsive and interactive websites that not only look great but also provide a seamless user experience.
           </p>
+          <div className="flex space-x-6">
+            <a href="https://github.com/SAAKETH12345" target="_blank" rel="noopener noreferrer" className="text-medium-gray hover:text-accent transition-colors text-3xl">
+              <i className="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/kazipeta-saaketh-08b649317/" target="_blank" rel="noopener noreferrer" className="text-medium-gray hover:text-accent transition-colors text-3xl">
+              <i className="fab fa-linkedin-in"></i>
+            </a>
+          </div>
         </div>
       </div>
     </Section>
