@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
             <h1 className="text-4xl md:text-6xl font-extrabold mb-3">Saaketh</h1>
             <p className="text-xl md:text-2xl text-medium-gray mb-8">Web Developer & UI/UX Designer</p>
             <div className="flex justify-center space-x-4">
-                <a href="#contact" className="bg-accent text-white font-bold py-3 px-8 rounded-full hover:bg-blue-500 transition-colors duration-300 shadow-lg">
+                <a href="mailto:25311a05u9@cse.sreenidhi.edu.in" className="bg-accent text-white font-bold py-3 px-8 rounded-full hover:bg-blue-500 transition-colors duration-300 shadow-lg">
                     Get In Touch
                 </a>
             </div>

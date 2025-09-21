@@ -10,7 +10,7 @@ const Contact: React.FC = () => {
           I'm currently open to new opportunities and collaborations. Whether you have a question or just want to say hi, feel free to reach out. My inbox is always open!
         </p>
         <a 
-          href="mailto:saakethkazipeta@gmail.com"
+          href="mailto:25311a05u9@cse.sreenidhi.edu.in"
           className="inline-block bg-accent text-white font-bold text-lg py-4 px-10 rounded-full hover:bg-blue-500 transition-colors duration-300 shadow-lg mb-12"
         >
           Say Hello
